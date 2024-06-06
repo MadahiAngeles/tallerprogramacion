@@ -1,0 +1,64 @@
+Descripción General
+La clase RegistroArchivos proporciona métodos estáticos para manipular información de clientes y cuentas bancarias en archivos de texto. Los métodos permiten guardar clientes, agregar cuentas, cargar datos de clientes y movimientos desde archivos, y actualizar saldos y contraseñas.
+
+Métodos
+guardarClienteEnArchivo(Cliente cliente, String nombreArchivo)
+
+Parámetros:
+Cliente cliente: El cliente cuyos datos se van a guardar.
+String nombreArchivo: Nombre del archivo donde se guardarán los datos.
+Descripción: Guarda los datos del cliente en el archivo especificado, incluyendo sus cuentas.
+Valor de Retorno: Ninguno (es void).
+Excepciones: IOException.
+agregarCuentaAClienteEnArchivo(Cliente cliente, Cuenta cuenta, String nombreArchivo)
+
+Parámetros:
+Cliente cliente: El cliente al que se le agregará la cuenta.
+Cuenta cuenta: La cuenta que se agregará.
+String nombreArchivo: Nombre del archivo donde se guardarán los datos.
+Descripción: Agrega una nueva cuenta a un cliente ya existente en el archivo.
+Valor de Retorno: Ninguno (es void).
+Excepciones: IOException.
+cargarDatosDesdeArchivo(String nombreArchivo)
+
+Parámetros:
+String nombreArchivo: Nombre del archivo de donde se cargarán los datos.
+Descripción: Carga y devuelve una lista de clientes desde el archivo especificado.
+Valor de Retorno: ArrayList<Cliente> - Lista de clientes cargados.
+Excepciones: IOException, NumberFormatException.
+actualizarSaldoEnArchivo(String archivo, String cedulaCliente, String numeroCuenta, double nuevoSaldoActual)
+
+Parámetros:
+String archivo: Nombre del archivo donde se actualiza el saldo.
+String cedulaCliente: Cédula del cliente cuyo saldo se va a actualizar.
+String numeroCuenta: Número de cuenta cuyo saldo se actualizará.
+double nuevoSaldoActual: Nuevo saldo a establecer.
+Descripción: Actualiza el saldo actual de una cuenta específica de un cliente en el archivo.
+Valor de Retorno: Ninguno (es void).
+Excepciones: IOException.
+actualizarContraseñaEnArchivo(String archivo, String cedulaCliente, String contraseña)
+
+Parámetros:
+String archivo: Nombre del archivo donde se actualizará la contraseña.
+String cedulaCliente: Cédula del cliente cuya contraseña se actualizará.
+String contraseña: Nueva contraseña a establecer.
+Descripción: Actualiza la contraseña de un cliente específico en el archivo.
+Valor de Retorno: Ninguno (es void).
+Excepciones: IOException.
+registrarMovimientoEnArchivo(String archivo, String numeroCuenta, Movimiento movimiento)
+
+Parámetros:
+String archivo: Nombre del archivo donde se registrará el movimiento.
+String numeroCuenta: Número de cuenta al que pertenece el movimiento.
+Movimiento movimiento: Movimiento a registrar.
+Descripción: Registra un nuevo movimiento en el archivo especificado.
+Valor de Retorno: Ninguno (es void).
+Excepciones: IOException.
+cargarMovimientosDesdeArchivo(String archivo, String numeroCuenta)
+
+Parámetros:
+String archivo: Nombre del archivo desde donde se cargarán los movimientos.
+String numeroCuenta: Número de cuenta cuyos movimientos se cargarán.
+Descripción: Carga y devuelve una lista de movimientos de una cuenta específica desde el archivo.
+Valor de Retorno: ArrayList<Movimiento> - Lista de movimientos cargados.
+Excepciones: IOException, ParseException.
