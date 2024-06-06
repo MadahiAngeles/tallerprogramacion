@@ -1,0 +1,133 @@
+Descripción General
+La clase Cliente representa a un cliente en un sistema bancario. Contiene atributos personales del cliente, información de contacto, credenciales y una lista de cuentas bancarias asociadas a ese cliente. También incluye métodos para manipular estos datos.
+
+Atributos de la Clase
+String nombre: Nombre del cliente.
+String telefono: Teléfono del cliente.
+String cedula: Cédula del cliente.
+String direccion: Dirección del cliente.
+String contraseña: Contraseña del cliente.
+List<Cuenta> cuentas: Lista de cuentas bancarias del cliente.
+String identificador: Identificador único del cliente.
+Constructores:
+public Cliente(String identificador, String nombre, String contraseña)
+Parámetros:
+String identificador: Identificador único del cliente.
+String nombre: Nombre del cliente.
+String contraseña: Contraseña del cliente.
+Descripción: Inicializa un nuevo objeto Cliente con los valores proporcionados y crea una lista vacía para las cuentas.
+Constructor por Defecto
+public Cliente()
+Parámetros: Ninguno.
+Descripción: Inicializa un nuevo objeto Cliente con una lista vacía para las cuentas. Los demás atributos quedan sin inicializar (son null).
+Métodos
+Getters y Setters
+List<Cuenta> getCuentas()
+Descripción: Devuelve la lista de cuentas del cliente.
+Valor de Retorno: List<Cuenta> - Lista de cuentas bancarias.
+Excepciones: No lanza excepciones.
+void setCuentas(List<Cuenta> cuentas)
+Parámetros:
+List<Cuenta> cuentas: Nueva lista de cuentas.
+Descripción: Establece la lista de cuentas del cliente.
+Valor de Retorno: Ninguno (es void).
+Excepciones: No lanza excepciones.
+String getIdentificador()
+
+Descripción: Devuelve el identificador del cliente.
+Valor de Retorno: String - Identificador del cliente.
+Excepciones: No lanza excepciones.
+void setIdentificador(String identificador)
+
+Parámetros:
+String identificador: Nuevo identificador del cliente.
+Descripción: Establece el identificador del cliente.
+Valor de Retorno: Ninguno (es void).
+Excepciones: No lanza excepciones.
+String getNombre()
+
+Descripción: Devuelve el nombre del cliente.
+Valor de Retorno: String - Nombre del cliente.
+Excepciones: No lanza excepciones.
+void setNombre(String nombre)
+
+Parámetros:
+String nombre: Nuevo nombre del cliente.
+Descripción: Establece el nombre del cliente.
+Valor de Retorno: Ninguno (es void).
+Excepciones: No lanza excepciones.
+String getTelefono()
+
+Descripción: Devuelve el teléfono del cliente.
+Valor de Retorno: String - Teléfono del cliente.
+Excepciones: No lanza excepciones.
+void setTelefono(String telefono)
+
+Parámetros:
+String telefono: Nuevo teléfono del cliente.
+Descripción: Establece el teléfono del cliente.
+Valor de Retorno: Ninguno (es void).
+Excepciones: No lanza excepciones.
+String getCedula()
+
+Descripción: Devuelve la cédula del cliente.
+Valor de Retorno: String - Cédula del cliente.
+Excepciones: No lanza excepciones.
+void setCedula(String cedula)
+
+Parámetros:
+String cedula: Nueva cédula del cliente.
+Descripción: Establece la cédula del cliente.
+Valor de Retorno: Ninguno (es void).
+Excepciones: No lanza excepciones.
+String getDireccion()
+
+Descripción: Devuelve la dirección del cliente.
+Valor de Retorno: String - Dirección del cliente.
+Excepciones: No lanza excepciones.
+void setDireccion(String direccion)
+
+Parámetros:
+String direccion: Nueva dirección del cliente.
+Descripción: Establece la dirección del cliente.
+Valor de Retorno: Ninguno (es void).
+Excepciones: No lanza excepciones.
+String getContraseña()
+
+Descripción: Devuelve la contraseña del cliente.
+Valor de Retorno: String - Contraseña del cliente.
+Excepciones: No lanza excepciones.
+void setContraseña(String contraseña)
+
+Parámetros:
+String contraseña: Nueva contraseña del cliente.
+Descripción: Establece la contraseña del cliente.
+Valor de Retorno: Ninguno (es void).
+Excepciones: No lanza excepciones.
+Métodos para manipular cuentas
+
+void agregarCuenta(Cuenta cuenta)
+Parámetros:
+Cuenta cuenta: La cuenta a agregar.
+Descripción: Agrega una cuenta a la lista de cuentas del cliente.
+Valor de Retorno: Ninguno (es void).
+Excepciones: No lanza excepciones.
+Ejemplos de Uso
+Crear un cliente usando el constructor principal:
+Cliente cliente = new Cliente("123", "Juan Perez", "password123");
+Establecer y obtener valores de los atributos:
+
+cliente.setTelefono("555-1234");
+String telefono = cliente.getTelefono();
+cliente.setDireccion("Calle Falsa 123");
+String direccion = cliente.getDireccion();
+Agregar cuentas a un cliente:
+Cuenta cuenta1 = new Cuenta(); // Supongamos que la clase Cuenta existe
+cliente.agregarCuenta(cuenta1);
+List<Cuenta> cuentas = cliente.getCuentas();
+Usar el constructor por defecto y luego establecer atributos:
+Cliente cliente2 = new Cliente();
+cliente2.setNombre("Maria Lopez");
+cliente2.setIdentificador("456");
+cliente2.setContraseña("password456");
+En resumen, esta clase Cliente permite manejar los datos y cuentas asociadas a un cliente en un sistema bancario, proporcionando constructores para inicializar objetos y métodos para acceder y modificar los atributos del cliente.
