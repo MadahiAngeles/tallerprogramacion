@@ -1,0 +1,71 @@
+
+Número de Cuenta: 0000000005
+Fecha: 30/05/2024 18:30:32
+Tipo: Depósito
+Monto: 7000.0
+=========================================
+Número de Cuenta: 0000000005
+Fecha: 30/05/2024 18:31:43
+Tipo: Retiro
+Monto: 2000.0
+=========================================
+Número de Cuenta: 0000000005
+Fecha: 30/05/2024 18:39:35
+Tipo: Retiro
+Monto: 1000.0
+=========================================
+Número de Cuenta: 0000000006
+Fecha: 30/05/2024 21:44:47
+Tipo: Cambio de contraseña
+Monto: 0.0
+=========================================
+Número de Cuenta: 0000000008
+Fecha: 30/05/2024 21:48:14
+Tipo: Cambio de contraseña
+Monto: 0.0
+=========================================
+Número de Cuenta: 0000000010
+Fecha: 31/05/2024 12:03:43
+Tipo: Depósito
+Monto: 500.0
+=========================================
+Número de Cuenta: 0000000001
+Fecha: 31/05/2024 14:20:45
+Tipo: Retiro
+Monto: 20000.0
+=========================================
+Número de Cuenta: 0000000001
+Fecha: 31/05/2024 14:21:21
+Tipo: Depósito
+Monto: 100.0
+=========================================
+Número de Cuenta: 0000000001
+Fecha: 31/05/2024 14:21:46
+Tipo: Depósito
+Monto: 1000.0
+=========================================
+Número de Cuenta: 0000000001
+Fecha: 31/05/2024 14:25:22
+Tipo: Transferencia salida
+Monto: 700.0
+=========================================
+Número de Cuenta: 0000000006
+Fecha: 31/05/2024 14:25:22
+Tipo: Transferencia entrada
+Monto: 84.0
+=========================================
+Número de Cuenta: 0000000006
+Fecha: 31/05/2024 14:31:10
+Tipo: Transferencia salida
+Monto: 84.0
+=========================================
+Número de Cuenta: 0000000001
+Fecha: 31/05/2024 14:31:10
+Tipo: Transferencia entrada
+Monto: 588.0
+=========================================
+Número de Cuenta: 0000000007
+Fecha: 06/06/2024 00:36:00
+Tipo: Retiro
+Monto: 6.0
+=========================================

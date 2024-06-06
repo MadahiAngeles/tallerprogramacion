@@ -1,0 +1,116 @@
+
+Cliente: HECTOR
+Teléfono: 71456120
+Cédula: 8852987
+Dirección: TIQUIPAYA
+Contraseña: 0102
+Cuentas: 
+    Número de Cuenta: 0000000007
+    Tipo de Cuenta: AHORRO
+    Tipo de Moneda: DOLARES
+    Saldo Inicial: 20000.0
+    Saldo Actual: 19994.0
+    Número de Cuenta: 0000000005
+    Tipo de Cuenta: AHORRO
+    Tipo de Moneda: DOLARES
+    Saldo Inicial: 12000.0
+    Saldo Actual: 16000.0
+    Número de Cuenta: 0000000003
+    Tipo de Cuenta: AHORRO
+    Tipo de Moneda: EUROS
+    Saldo Inicial: 15000.0
+    Saldo Actual: 15000.0
+    Número de Cuenta: 0000000002
+    Tipo de Cuenta: CORRIENTE
+    Tipo de Moneda: DOLARES
+    Saldo Inicial: 10000.0
+    Saldo Actual: 10000.0
+    Número de Cuenta: 0000000001
+    Tipo de Cuenta: AHORRO
+    Tipo de Moneda: BOLIVIANOS
+    Saldo Inicial: 25000.0
+    Saldo Actual: 5988.0
+=========================================
+Cliente: SCARLET
+Teléfono: 78459632
+Cédula: 88526341
+Dirección: PUNATA
+Contraseña: 7777
+Cuentas: 
+    Número de Cuenta: 0000000006
+    Tipo de Cuenta: AHORRO
+    Tipo de Moneda: DOLARES
+    Saldo Inicial: 12000.0
+    Saldo Actual: 15000.0
+    Número de Cuenta: 0000000004
+    Tipo de Cuenta: CORRIENTE
+    Tipo de Moneda: EUROS
+    Saldo Inicial: 15000.0
+    Saldo Actual: 15000.0
+=========================================
+Cliente: ROBERTO
+Teléfono: 78555632
+Cédula: 96324587
+Dirección: AV. AMERICA
+Contraseña:  8888
+Cuentas: 
+    Número de Cuenta: 0000000008
+    Tipo de Cuenta: AHORRO
+    Tipo de Moneda: DOLARES
+    Saldo Inicial: 20000.0
+    Saldo Actual: 20000.0
+=========================================
+Cliente: MADAHI
+Teléfono: 74663289
+Cédula: 98564712
+Dirección: AV. PERU
+Contraseña: 0102
+Cuentas: 
+=========================================
+Cliente: NICOL
+Teléfono: 66325784
+Cédula: 13246974
+Dirección: TROJES
+Contraseña: 0102
+Cuentas: 
+=========================================
+Cliente: JHOEL
+Teléfono: 78965224
+Cédula: 86542369
+Dirección: BLANCO GALINDO
+Contraseña: 0102
+Cuentas: 
+=========================================
+Cliente: JHONNY
+Teléfono: 78965412
+Cédula: 12365789
+Dirección: COCHABAMBA
+Contraseña: 7777
+Cuentas: 
+=========================================
+Cliente: GARY
+Teléfono: 346516
+Cédula: 6843
+Dirección: POR AHIS
+Contraseña: 7777
+Cuentas: 
+    Número de Cuenta: 0000000010
+    Tipo de Cuenta: AHORRO
+    Tipo de Moneda: EUROS
+    Saldo Inicial: 2000.0
+    Saldo Actual: 2500.0
+=========================================
+Cliente: noemi
+Teléfono: 648351
+Cédula: 3698741
+Dirección: donde sea
+Contraseña: perro
+Cuentas: 
+=========================================
+Cliente: RUTH
+Teléfono: 78963214
+Cédula: 85852145
+Dirección: CIRCUNVALACION
+Contraseña: COLEGIO
+Cuentas: 
+=========================================
